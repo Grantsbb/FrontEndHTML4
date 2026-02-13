@@ -1,37 +1,46 @@
 body {
-  background-color: #F4EBBE;
-  color: #333333
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-  font-size: 14pt;
-  line-height: 1.6;
+  background-color: #0d1117;          
+  color: #e6edf3;                      
+  font-family: 'Poppins', sans-serif;
+  font-size: 15pt;
+  line-height: 1.5;
   margin: 0;
+  padding: 0;
 }
 h1 {
   font-size: 2rem;
-  color: #333333;
+  color: #e6edf3;                      
   margin: 0;
 }
 nav {
-  background-color: #8BA6A9;
+  background-color: #161b22;           
   padding: 1rem;
+  border-bottom: 2px solid #58a6ff;    
 }
   nav a {
-  color: #FFFFFF;
+  color: #e6edf3;                     
   margin-right: 20px;
-  }
-  nav a:hover {
-  background-color: #75704E;
-  }
-  nav a:visited{
-    color: #CACC90;
-  }
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+ nav a:hover {
+  background-color: #00d4ff;           
+  color: #0d1117;                      
+}
 
-section{
-  backgoround-color: #CACC90;
+nav a:visited {
+  color: #8b949e;                     
+}
+
+section {
+  background-color: #161b22;           
   padding: 2rem;
+  margin-bottom: 2rem;
+  border: 1px solid #30363d;           
+  border-radius: 8px;
 }
 img {
-  border: 2px solid #8BA6A9
+  border: 2px solid #8BA6A9;
   margin: 10px;
   max-width: 100%;
   height: auto;
