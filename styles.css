@@ -1,0 +1,71 @@
+body {
+  background-color: #F4EBBE;
+  color: #333333
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 14pt;
+  line-height: 1.6;
+  margin: 0;
+}
+h1 {
+  font-size: 2rem;
+  color: #333333;
+  margin: 0;
+}
+nav {
+  background-color: #8BA6A9;
+  padding: 1rem;
+}
+  nav a {
+  color: #FFFFFF;
+  margin-right: 20px;
+  }
+  nav a:hover {
+  background-color: #75704E;
+  }
+  nav a:visited{
+    color: #CACC90;
+  }
+
+section{
+  backgoround-color: #CACC90;
+  padding: 2rem;
+}
+img {
+  border: 2px solid #8BA6A9
+  margin: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+  
+
+
+.Nano1 figure {
+  transition: 0.3s;
+}
+.Nano1 figure {
+  filter: grayscale(100%);
+}
+
+.imagegallery img {
+    transition: 0.3s
+}
+
+.imagegallery img:hover {
+    filter: grayscale(10000000000%);
+}
+
+.audio-player {
+    padding: 50px;
+    background: #611be2;
+    border-radius: 10px;
+}
+
+.nanoyoutube{
+  width: 45%;
+  height: 470px;
+}
