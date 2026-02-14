@@ -31,13 +31,17 @@ h4 {
 p {
   font-size: 15pt;
   line-height: 1.6;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
   color: #e6edf3;
 }
+
+
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Poppins', sans-serif;
 }
+
 nav {
   background-color: #161b22;           
   padding: 1rem;
@@ -83,7 +87,7 @@ video {
   transition: 0.3s;
 }
 .Nano1 figure {
-  filter: grayscale(100%);
+  filter: sepia(100%);
 }
 
 
@@ -95,11 +99,11 @@ video {
 }
 
 .imagegallery img {
-    transition: 0.3s
+    transition: 5s
 }
 
 .imagegallery img:hover {
-    filter: grayscale(10000000000%);
+    filter: sepia(10000000000%);
 }
 
 .audio-player {
