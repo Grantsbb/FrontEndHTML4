@@ -8,7 +8,7 @@ body {
   padding: 0;
 }
 h1 {
-  font-size: 2rem;
+  font-size: 5rem;
   color: #e6edf3;                      
   margin: 0;
 }
@@ -113,6 +113,41 @@ video {
   height: 470px;
 }
 
+
 .centered {
   text-align: center;
+}
+
+blockquote {
+  border-left: 4px solid #00d4ff;
+  background-color: #1f2937;
+  padding: 1.5rem;
+  margin: 2rem;
+  font-style: italic;
+  border-radius: 4px;
+}
+
+cite {
+  font-size: 0.875rem;
+  color: #8b949e;
+  display: block;
+  margin-top: 0.5rem;
+}
+
+figcaption {
+  font-size: 0.875rem;
+  color: #8b949e;
+  text-align: center;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+/*text shadows */
+
+h1 {
+  text-shadow: 2px 2px 8px #00d4ff; 
+}
+
+h3 {
+  text-shadow: 1px 1px 4px #7c3aed; 
 }
